@@ -1,4 +1,4 @@
-title: python-while-loop
+title: Python while loop
 hero_image: images/banner.png
 subtitle: python-while-loop subtitle
 description: python-while-loop description
@@ -6,5 +6,5 @@ original_url: https://codeclubprojects.org/en-GB/scratch/rock-band
 theme: cc-prototype
 published: false
 steps:
-  - title: Step one
+  - title: While loop
     duration: 60
