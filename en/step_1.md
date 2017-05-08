@@ -16,7 +16,7 @@ An infinite loop is useful in situations where you want to perform the same acti
 
 #### Loop based on a boolean value
 
-It is possible for the condition in this loop to become False. When it does, the loop will stop.
+In this example, the condition is a boolean variable `keep_looping` which starts off `True`. It is possible for the condition in this loop to become False. When it does, the loop will stop.
 
 ```python
 keep_looping = True
@@ -40,4 +40,4 @@ while counter < 10:
     print("Counting...")
     counter += 1
 ```
-While loops are sometimes referred to as **condition controlled loops** because the loop will continue running until the condition becomes `True`. In this example, the condition is `counter < 10` and since we add 1 to `counter` each time the loop runs, the loop will run 10 times. 
+In this example, the condition is `counter < 10` and since we add 1 to `counter` each time the loop runs, the loop will run 10 times. While loops are sometimes referred to as **condition controlled loops** because the loop will continue running until the condition becomes `True`. 
