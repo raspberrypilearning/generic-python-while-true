@@ -16,7 +16,7 @@ An infinite loop is useful in situations where you want to perform the same acti
 
 #### Loops based on a boolean variable
 
-In this example, the condition is a boolean variable we gave the name `keep_looping`. It is set as `True` at the top. The value can become `False`, which will make the condition of the while loop `False`. When this happens, the loop stops running.
+In this example, the condition is a boolean variable we gave the name `keep_looping`. It's value is set as `True` at the top. The value can become `False`, which will make the condition of the while loop `False`. When this happens, the loop stops running.
 
 ```python
 keep_looping = True
