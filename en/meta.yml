@@ -1,7 +1,6 @@
-title: Python while loops
+title: While True loop in Python
 hero_image: images/banner.png
-description: Using while loops in Python
-original_url:
+description: Learn how to create an infinite while loop in Python
 theme: cc-prototype
 duration: 1
 listed: false
