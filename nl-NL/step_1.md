@@ -1,12 +1,12 @@
-The purpose of a **while** loop is to repeat code over and over while a condition is `True`. This is why while loops are sometimes referred to as **condition-controlled** loops.
+Het doel van een **while**-lus is om code te blijven herhalen zolang een voorwaarde `True` is. Dit is de reden waarom while-lussen soms **conditie-gecontroleerde** lussen worden genoemd.
 
-The example below is a while loop that will run forever - an infinite loop. The loop will run forever because the condition is always `True`.
+Het onderstaande voorbeeld is een while-lus die voor altijd loopt - een oneindige lus. De lus loopt voor altijd omdat de voorwaarde altijd `True` is.
 
 ```python
 while True:
-    print("Hello world")
+    print("Hallo wereld")
 ```
 
-Note: The `while` line states the loop **condition**. The `print` line of code below it is slightly further to the right. This is called __indentation__ - the line is indented to show that it is inside the loop. Any code inside the loop will be repeated.
+Opmerking: de `while` regel geeft de lus-**conditie**. De `print` regel code eronder begint iets verder naar rechts. Dit wordt __inspringen__ genoemd - de regel is ingesprongen om aan te geven dat deze zich binnen de lus bevindt. Alle code in de lus wordt herhaald.
 
-An infinite loop is useful in situations where you want to perform the same actions over and over again, for example checking the value of a sensor. An infinite loop like this will continue to run forever meaning that any lines of code written after the loop will never happen. This is known as **blocking** - whereby a program **blocks** the execution of any other code.
+Een oneindige lus is handig in situaties waarin je steeds opnieuw dezelfde acties wilt uitvoeren, bijvoorbeeld door de waarde van een sensor te controleren. Een oneindige lus als deze zal voor altijd blijven lopen, wat betekent dat alle regels code die na de lus worden geschreven, nooit zullen gebeuren. Dit staat bekend als **blokkeren** - waarbij een programma de uitvoering van iedere andere code **blokkeert**.
