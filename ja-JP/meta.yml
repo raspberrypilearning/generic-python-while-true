@@ -1,0 +1,13 @@
+---
+title: PythonのWhile Trueループ
+hero_image: images/banner.png
+description: Pythonで無限whileループを作る方法を学ぶ
+theme: cc-prototype
+duration: 1
+listed: false
+ingredient: true
+copyedit: true
+interests: ""
+technologies: "python"
+steps:
+  - title: whileループ
