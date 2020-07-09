@@ -1,7 +1,7 @@
 ---
-title: While True loop in Python
+title: Βρόχος επανάληψης While True στην Python
 hero_image: images/banner.png
-description: Learn how to create an infinite while loop in Python
+description: Μάθε πώς να δημιουργείς έναν ατέρμονα βρόχο επανάληψης while στην Python
 theme: cc-prototype
 duration: 1
 listed: false
@@ -11,4 +11,4 @@ interests: ""
 technologies: "python"
 steps:
   - 
-    title: While loops
+    title: Βρόχοι while
