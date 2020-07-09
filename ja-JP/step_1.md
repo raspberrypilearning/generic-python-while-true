@@ -1,12 +1,12 @@
-The purpose of a **while** loop is to repeat code over and over while a condition is `True`. This is why while loops are sometimes referred to as **condition-controlled** loops.
+**while**ループの目的は、条件が`True`（真）である間、コードを何回もくり返すことです。 このため、whileループは**条件制御（じょうけんせいぎょ）**（条件によって動きが変わる）ループと呼ばれることがあります。
 
-The example below is a while loop that will run forever - an infinite loop. The loop will run forever because the condition is always `True`.
+以下の例は、無限ループと呼ばれる、いつまでも実行されるwhileループです。 条件はいつも`True`（真）なので、ループはいつまでも実行されます。
 
 ```python
 while True:
     print("Hello world")
 ```
 
-Note: The `while` line states the loop **condition**. The `print` line of code below it is slightly further to the right. This is called __indentation__ - the line is indented to show that it is inside the loop. Any code inside the loop will be repeated.
+注意：`while`行はループの**条件**を示します。 `print`の行がすこし右にずれています。 これは__字下げ__（インデント）と呼ばれ、行が字下げされているのはループの中にあることを示しています。 ループの中にあるすべてのコードがくり返されます。
 
-An infinite loop is useful in situations where you want to perform the same actions over and over again, for example checking the value of a sensor. An infinite loop like this will continue to run forever meaning that any lines of code written after the loop will never happen. This is known as **blocking** - whereby a program **blocks** the execution of any other code.
+無限ループは、たとえばセンサーの値を確認するなど、同じことを何回もくり返したいような場合に役に立ちます。 このような無限ループはいつまでも実行し続けるため、ループの後に書かれたコードはすべて実行されません。 これは**ブロッキング**として知られています。それによって、プログラムは他のコードの実行を**ブロック**（じゃま）します。
