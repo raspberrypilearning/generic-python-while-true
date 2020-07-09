@@ -1,12 +1,12 @@
-The purpose of a **while** loop is to repeat code over and over while a condition is `True`. This is why while loops are sometimes referred to as **condition-controlled** loops.
+Le but d'une boucle **while** est de répéter le code encore et encore pendant qu'une condition est `Vraie` (True). C'est pourquoi les boucles « while » sont parfois appelées boucles **contrôlées par condition**.
 
-The example below is a while loop that will run forever - an infinite loop. The loop will run forever because the condition is always `True`.
+L'exemple ci-dessous est une boucle « while » qui s'exécutera indéfiniment - une boucle infinie. La boucle s'exécutera indéfiniment parce que la condition est toujours `Vraie`.
 
 ```python
 while True:
-    print("Hello world")
+    print("Bonjour le monde")
 ```
 
-Note: The `while` line states the loop **condition**. The `print` line of code below it is slightly further to the right. This is called __indentation__ - the line is indented to show that it is inside the loop. Any code inside the loop will be repeated.
+Remarque : la ligne `while` indique la **condition** de la boucle. La ligne de code `print` ci-dessous est légèrement plus à droite. Cela s'appelle __indentation__ - la ligne est indentée pour montrer qu'elle est à l'intérieur de la boucle. Tout code à l'intérieur de la boucle sera répété.
 
-An infinite loop is useful in situations where you want to perform the same actions over and over again, for example checking the value of a sensor. An infinite loop like this will continue to run forever meaning that any lines of code written after the loop will never happen. This is known as **blocking** - whereby a program **blocks** the execution of any other code.
+Une boucle infinie est utile dans les situations où tu veux effectuer les mêmes actions encore et encore par exemple en vérifiant la valeur d'un capteur. Une boucle infinie comme celle-ci continuera à s'exécuter indéfiniment, ce qui signifie que toutes les lignes de code écrites après la boucle n'arriveront jamais. Ceci est connu sous le nom de **blocage** - par lequel un programme **bloque** l'exécution de tout autre code.
