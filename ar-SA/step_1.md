@@ -1,12 +1,12 @@
-The purpose of a **while** loop is to repeat code over and over while a condition is `True`. This is why while loops are sometimes referred to as **condition-controlled** loops.
+الغرض من حلقة التكرار **while** هو تكرار التعليمات البرمجية مرارا وتكرارا بينما الشرط هو `True`. هذا هو السبب في حين يشار أحيانًا إلى الحلقات على أنها حلقات ** يتم التحكم فيها بالشرط **.
 
-The example below is a while loop that will run forever - an infinite loop. The loop will run forever because the condition is always `True`.
+المثال أدناه هو حلقة while سيتم تشغيلها إلى الأبد - حلقة لا نهائية. سيتم تشغيل الحلقة إلى الأبد لأن الشرط دائمًا ` True`.
 
 ```python
 while True:
-    print("Hello world")
+print ("مرحبا بالعالم")
 ```
 
-Note: The `while` line states the loop **condition**. The `print` line of code below it is slightly further to the right. This is called __indentation__ - the line is indented to show that it is inside the loop. Any code inside the loop will be repeated.
+ملاحظة: سطر`while` يحدد حالة حلقة**الشرط**. السطر البرمجي `print` اسفل حلقة التكرار while هو ابعد قليلاً الى اليمين. هذا يسمى__ المسافة البادئة__ - يتم وضع مسافة بادئة للسطر البرمجي لإظهار أنه داخل الحلقة (اي تابع الى حلقة التكرار while). سيتم تكرار أي أسطر من التعليمات البرمجية داخل الحلقة.
 
-An infinite loop is useful in situations where you want to perform the same actions over and over again, for example checking the value of a sensor. An infinite loop like this will continue to run forever meaning that any lines of code written after the loop will never happen. This is known as **blocking** - whereby a program **blocks** the execution of any other code.
+تعتبر الحلقة اللانهائية مفيدة في المواقف التي تريد فيها تنفيذ نفس الإجراءات مرارًا وتكرارًا ، على سبيل المثال التحقق من قيمة المستشعر. ستستمر حلقة لا نهائية كهذه في العمل إلى الأبد مما يعني أن أي سطور من التعليمات البرمجية المكتوبة بعد الحلقة (خارج الحلقة) لن تنفذ أبدًا. هذا معروف باسم **blocking** - حيث يقوم برنامج **blocks** بتنفيذ أي سطر برمجي آخر.
