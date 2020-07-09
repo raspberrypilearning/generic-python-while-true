@@ -1,12 +1,12 @@
-The purpose of a **while** loop is to repeat code over and over while a condition is `True`. This is why while loops are sometimes referred to as **condition-controlled** loops.
+Σκοπός ενός βρόχου **while** είναι να επαναλαμβάνει τον κώδικα συνεχώς για όσο χρονικό διάστημα μια συνθήκη είναι αληθής `True`. Αυτός είναι ο λόγος που οι βρόχοι while αναφέρονται μερικές φορές ως βρόγχοι **ελεγχόμενοι από την κατάσταση**.
 
-The example below is a while loop that will run forever - an infinite loop. The loop will run forever because the condition is always `True`.
+Το παρακάτω παράδειγμα είναι ένας βρόχος που θα εκτελείται για πάντα - ένας ατέρμων βρόχος. Ο βρόχος θα εκτελείται για πάντα επειδή η συνθήκη είναι πάντα αληθής `True`.
 
 ```python
 while True:
-    print("Hello world")
+    print ("Γεια σου κόσμε")
 ```
 
-Note: The `while` line states the loop **condition**. The `print` line of code below it is slightly further to the right. This is called __indentation__ - the line is indented to show that it is inside the loop. Any code inside the loop will be repeated.
+Σημείωση: Η γραμμή ` while ` δηλώνει την **συνθήκη** του βρόχου. Παρατήρησε ότι η γραμμή `print` του κώδικα ξεκινά ελαφρώς πιο δεξιά από τις υπόλοιπες. Αυτό ονομάζεται __εσοχή__ - η γραμμή είναι σε εσοχή για να δείξει ότι βρίσκεται μέσα στον βρόχο. Οποιεσδήποτε γραμμές κώδικα στο εσωτερικό του βρόχου θα επαναληφθούν.
 
-An infinite loop is useful in situations where you want to perform the same actions over and over again, for example checking the value of a sensor. An infinite loop like this will continue to run forever meaning that any lines of code written after the loop will never happen. This is known as **blocking** - whereby a program **blocks** the execution of any other code.
+Ένας ατέρμων βρόχος είναι χρήσιμος σε καταστάσεις όπου θέλεις να εκτελείς τις ίδιες ενέργειες ξανά και ξανά, για παράδειγμα να ελέγχεις την τιμή ενός αισθητήρα. Ένας ατέρμων βρόχος όπως αυτός θα συνεχίσει να εκτελείται για πάντα, πράγμα που σημαίνει ότι οποιεσδήποτε γραμμές κώδικα γραμμένες μετά το βρόχο δεν θα συμβούν ποτέ. Αυτό είναι γνωστό ως **αποκλεισμός** - οπότε ένα πρόγραμμα **αποκλείει** την εκτέλεση οποιουδήποτε άλλου κώδικα.
