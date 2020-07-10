@@ -1,12 +1,12 @@
-The purpose of a **while** loop is to repeat code over and over while a condition is `True`. This is why while loops are sometimes referred to as **condition-controlled** loops.
+O objetivo de um laço **while** é repetir o código várias vezes enquanto uma condição for `True` (verdadeira). É por isso que laços while por vezes são referidos como laços **controlados por condição**.
 
-The example below is a while loop that will run forever - an infinite loop. The loop will run forever because the condition is always `True`.
+O exemplo abaixo é um laço while que será executado para sempre - um laço infinito. O laço será executado para sempre porque a condição é sempre `True` (verdadeira).
 
 ```python
 while True:
-    print("Hello world")
+    print("Olá mundo")
 ```
 
-Note: The `while` line states the loop **condition**. The `print` line of code below it is slightly further to the right. This is called __indentation__ - the line is indented to show that it is inside the loop. Any code inside the loop will be repeated.
+Nota: A linha `while` indica a **condição** do laço. A linha de código `print` abaixo é um pouco mais à direita. Chama-se isso de __indentação__ - a linha está recuada para mostrar que está dentro do laço. Qualquer código dentro do laço será repetido.
 
-An infinite loop is useful in situations where you want to perform the same actions over and over again, for example checking the value of a sensor. An infinite loop like this will continue to run forever meaning that any lines of code written after the loop will never happen. This is known as **blocking** - whereby a program **blocks** the execution of any other code.
+Um laço infinito é útil em situações onde você deseja executar as mesmas ações várias vezes. Por exemplo, verificando o valor de um sensor. Um laço infinito como este continuará a ser executado para sempre, o que significa que quaisquer linhas de código escritas após o laço nunca acontecerão. Isto é conhecido como **bloqueio** - em que um programa **bloqueia** a execução de qualquer outro código.
