@@ -1,0 +1,13 @@
+---
+title: حلقة حقيقية في البايثون
+hero_image: images/banner.png
+description: تعرف على كيفية إنشاء حلقة لا نهائية أثناء التكرار في Python
+theme: cc-prototype
+duration: 1
+listed: false
+ingredient: true
+copyedit: true
+interests: ""
+technologies: "python"
+steps:
+  - title: حلقات While

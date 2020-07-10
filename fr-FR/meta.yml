@@ -1,0 +1,13 @@
+---
+title: While True loop en Python
+hero_image: images/banner.png
+description: Apprendre à créer une boucle infinie while en Python
+theme: cc-prototype
+duration: 1
+listed: false
+ingredient: true
+copyedit: true
+interests: ""
+technologies: "python"
+steps:
+  - title: Boucles while
