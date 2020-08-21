@@ -1,0 +1,13 @@
+---
+title: Python에서의 While True 반복문
+hero_image: images/banner.png
+description: 파이썬에서 무한 while문을 만드는 방법 배우기
+theme: cc-prototype
+duration: 1
+listed: false
+ingredient: true
+copyedit: true
+interests: ""
+technologies: "python"
+steps:
+  - title: While문
