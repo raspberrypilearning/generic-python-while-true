@@ -1,7 +1,7 @@
 ---
-title: While True loop in Python
+title: Pętla while True w Pythonie
 hero_image: images/banner.png
-description: Learn how to create an infinite while loop in Python
+description: Dowiedz się, jak utworzyć nieskończoną pętlę while w Pythonie
 theme: cc-prototype
 duration: 1
 listed: false
@@ -11,4 +11,4 @@ interests: ""
 technologies: "python"
 steps:
   - 
-    title: While loops
+    title: Pętle while
