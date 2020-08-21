@@ -1,12 +1,12 @@
-The purpose of a **while** loop is to repeat code over and over while a condition is `True`. This is why while loops are sometimes referred to as **condition-controlled** loops.
+El propósito de un bucle **while** es repetir código una y otra vez, mientras que una condición sea `Verdadera`. Esta es la razón por la que los bucles while a veces se denominan bucles **controlados por condiciones**.
 
-The example below is a while loop that will run forever - an infinite loop. The loop will run forever because the condition is always `True`.
+El siguiente ejemplo es un bucle while que se ejecutará por siempre - un bucle infinito. El bucle se ejecutará para siempre porque la condición es siempre `Verdadera`.
 
 ```python
 while True:
-    print("Hello world")
+    print("Hola mundo")
 ```
 
-Note: The `while` line states the loop **condition**. The `print` line of code below it is slightly further to the right. This is called __indentation__ - the line is indented to show that it is inside the loop. Any code inside the loop will be repeated.
+Nota: la linea de código con el `while` indica la **condición** del bucle. La línea de código de debajo con el `print` está un poco más hacia la derecha. Esto se llama __sangría__ (Nota: también puedes verlo como identación) - la línea está sangrada para mostrar que está dentro del bucle. Cualquier código que está dentro del bucle será repetido.
 
-An infinite loop is useful in situations where you want to perform the same actions over and over again, for example checking the value of a sensor. An infinite loop like this will continue to run forever meaning that any lines of code written after the loop will never happen. This is known as **blocking** - whereby a program **blocks** the execution of any other code.
+Un bucle infinito es útil en situaciones en las que deseas realizar las mismas acciones una y otra vez, por ejemplo comprobar el valor de un sensor. Un bucle infinito como este continuará ejecutándose para siempre lo que significa que cualquier línea de código escrita después del bucle nunca se ejecutará. Esto se conoce como **bloqueo** - por el cual un programa **bloquea** La ejecución de cualquier otro código.
