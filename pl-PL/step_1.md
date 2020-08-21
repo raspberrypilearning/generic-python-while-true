@@ -1,12 +1,12 @@
-The purpose of a **while** loop is to repeat code over and over while a condition is `True`. This is why while loops are sometimes referred to as **condition-controlled** loops.
+Celem pętli **while** jest powtarzanie kodu w kółko, dopóki warunek jest prawdziwy czyli ma wartość `True`. To dlatego pętle while są czasami określane jako pętle **sterowane warunkowo **.
 
-The example below is a while loop that will run forever - an infinite loop. The loop will run forever because the condition is always `True`.
+Poniższy przykład to pętla while, która będzie działać wiecznie - nieskończona pętla. Pętla nie przestanie działać, ponieważ warunkiem jest zawsze `True`.
 
 ```python
 while True:
-    print("Hello world")
+    print ("Witaj świecie")
 ```
 
-Note: The `while` line states the loop **condition**. The `print` line of code below it is slightly further to the right. This is called __indentation__ - the line is indented to show that it is inside the loop. Any code inside the loop will be repeated.
+Zauważ, że linia z `while` zawiera również **warunek** pętli. Polecenie `print` znajdujące się poniżej jest przesunięte nieco dalej w prawo. Nazywa się to __wcięciem__ - linia jest wcięta, aby pokazać, że znajduje się w pętli. Cały kod znajdujący się w pętli zostanie powtórzony.
 
-An infinite loop is useful in situations where you want to perform the same actions over and over again, for example checking the value of a sensor. An infinite loop like this will continue to run forever meaning that any lines of code written after the loop will never happen. This is known as **blocking** - whereby a program **blocks** the execution of any other code.
+Nieskończona pętla jest przydatna w sytuacjach, w których chcesz wykonywać te same czynności w kółko, na przykład sprawdzając wartość zmierzoną przez czujnik. Taka nieskończona pętla będzie działać wiecznie, co oznacza, że żadne wiersze kodu napisane po pętli nigdy się nie zostaną wykonane. Nazywane jest to **blokowaniem** - program **blokuje** wykonanie dowolnego innego kodu.
