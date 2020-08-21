@@ -1,12 +1,12 @@
-The purpose of a **while** loop is to repeat code over and over while a condition is `True`. This is why while loops are sometimes referred to as **condition-controlled** loops.
+**while**문의 목적은 조건이 `참`일 때 코드를 반복하는 것입니다. 이러한 이유로 while문을 **상태 제어** 반복문이라고 부르기도 합니다.
 
-The example below is a while loop that will run forever - an infinite loop. The loop will run forever because the condition is always `True`.
+아래 예제는 영원히 실행될 while문입니다. - 무한 루프입니다. 조건이 항상 `참`이므로 영원히 반복문이 실행될 것입니다.
 
 ```python
 while True:
     print("Hello world")
 ```
 
-Note: The `while` line states the loop **condition**. The `print` line of code below it is slightly further to the right. This is called __indentation__ - the line is indented to show that it is inside the loop. Any code inside the loop will be repeated.
+참고: `while` 라인은 **조건**을 나타냅니다. 아래의 `print` 라인은 조금 오른쪽으로 치우쳐 있습니다. 이것이 __들여쓰기__입니다. - 들여쓰기를 해서 반복문 안에 포함된 라인임을 나타냅니다. 반복문 안에 있는 어떤 코드든 반복될 것입니다.
 
-An infinite loop is useful in situations where you want to perform the same actions over and over again, for example checking the value of a sensor. An infinite loop like this will continue to run forever meaning that any lines of code written after the loop will never happen. This is known as **blocking** - whereby a program **blocks** the execution of any other code.
+무한 루프는 센서 값을 확인하는 등 동일한 작업을 반복적으로 수행하려는 경우에 유용합니다. 이와 같은 무한 루프는 영원히 계속 실행될 것입니다. 즉, 반복문 뒤에 쓰여진 코드 라인은 절대 실행되지 않습니다. 이를 **차단**이라고 합니다. - 어떤 프로그램이 다른 코드의 실행을 **차단**합니다.
