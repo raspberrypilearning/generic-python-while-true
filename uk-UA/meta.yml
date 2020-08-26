@@ -1,0 +1,13 @@
+---
+title: Цикл While True у Python
+hero_image: images/banner.png
+description: Дізнайся, як створити нескінченний while цикл у Python
+theme: cc-prototype
+duration: 1
+listed: false
+ingredient: true
+copyedit: true
+interests: ""
+technologies: "python"
+steps:
+  - title: Цикли while
