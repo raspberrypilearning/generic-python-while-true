@@ -1,0 +1,13 @@
+---
+title: 在 Python 中，無限循環的迴圈指令
+hero_image: images/banner.png
+description: 了解如何在 Python 中創建一個無限循環的迴圈
+theme: cc-prototype
+duration: 1
+listed: false
+ingredient: true
+copyedit: true
+interests: ""
+technologies: "python"
+steps:
+  - title: 無限循環迴圈指令
