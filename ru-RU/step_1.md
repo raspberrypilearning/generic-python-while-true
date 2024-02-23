@@ -1,12 +1,12 @@
-The purpose of a **while** loop is to repeat code over and over while a condition is `True`. This is why while loops are sometimes referred to as **condition-controlled** loops.
+Назначение цикла **while** — повторять код снова и снова, пока условие равно `True`. Вот почему циклы while иногда называют циклами, **управляемые условием**.
 
-The example below is a while loop that will run forever - an infinite loop. The loop will run forever because the condition is always `True`.
+В приведенном ниже примере показан цикл while, который будет выполняться вечно — бесконечный цикл. Этот цикл будет выполняться вечно, потому что условие всегда равно `True` (истинно).
 
 ```python
 while True:
-    print("Hello world")
+    print("Привет, мир")
 ```
 
-Note: The `while` line states the loop **condition**. The `print` line of code below it is slightly further to the right. This is called __indentation__ - the line is indented to show that it is inside the loop. Any code inside the loop will be repeated.
+Примечание. В строке `while` указывается **условие** продолжения цикла. В строке `print` код смещён немного вправо. Это называется __отступом__ — строка смещена вправо, чтобы показать, что она находится внутри цикла. Любой код внутри цикла будет повторяться.
 
-An infinite loop is useful in situations where you want to perform the same actions over and over again, for example checking the value of a sensor. An infinite loop like this will continue to run forever meaning that any lines of code written after the loop will never happen. This is known as **blocking** - whereby a program **blocks** the execution of any other code.
+Бесконечный цикл полезен в ситуациях, когда вы хотите выполнять одни и те же действия снова и снова, например, проверять значение датчика. Подобный бесконечный цикл будет продолжать выполняться вечно, что означает, что любые строки кода, написанные после цикла, никогда не выполнятся. Это называется **блокировка**: когда программа **блокирует** выполнение любого другого кода.
