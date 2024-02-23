@@ -1,12 +1,12 @@
-The purpose of a **while** loop is to repeat code over and over while a condition is `True`. This is why while loops are sometimes referred to as **condition-controlled** loops.
+使用 **while** 無限迴圈的目的，在於不斷的執行迴圈中的程式碼，直至「檢查條件」不再為 `True` 為止。 這也是while 迴圈有時被稱為 **條件控制** 循環的原因。
 
-The example below is a while loop that will run forever - an infinite loop. 因它的「檢查條件」永遠都是 `True`。
+下面的例子是一個 while 循環指令，它是一個無限循環的迴圈。 因它的「檢查條件」永遠都是 `True`。
 
 ```python
 while True:
     print("Hello world")
 ```
 
-Note: The `while` line states the loop **condition**. The `print` line of code below it is slightly further to the right. This is called __indentation__ - the line is indented to show that it is inside the loop. 在循環內的任何程式碼都將會重複執行。
+注意：`while` 行內容，代表循環迴圈的 **檢查條件** 。 下一行`print` 的程式碼，比起上方的迴圈，位置稍微向右移。 這稱為 __縮排__ 該行縮排代表它屬於循環內的程式碼。 在循環內的任何程式碼都將會重複執行。
 
-An infinite loop is useful in situations where you want to perform the same actions over and over again, for example checking the value of a sensor. An infinite loop like this will continue to run forever meaning that any lines of code written after the loop will never happen. This is known as **blocking** - whereby a program **blocks** the execution of any other code.
+無限循環適合用在當你需要重複執行同一個指令，像是檢查感測器的讀值。 這同時也意味著，你在循環迴圈之後所編寫的程式碼將永遠不會被執行。 這稱為 **阻塞** ，代表這一段程式碼 **阻止** 其它程式碼運行。
