@@ -1,12 +1,12 @@
-The purpose of a **while** loop is to repeat code over and over while a condition is `True`. This is why while loops are sometimes referred to as **condition-controlled** loops.
+Scopul unei bucle **while** este de a repeta codul de mai multe ori cât timp o condiție este `True` (n. trad. adevărată). Acesta este motivul pentru care buclele while sunt uneori numite bucle ** controlate de condiție**.
 
-The example below is a while loop that will run forever - an infinite loop. The loop will run forever because the condition is always `True`.
+Exemplul de mai jos este o buclă while care se va executa pentru totdeauna - o buclă infinită. Bucla se va executa la infinit deoarece condiția este întotdeauna `True`.
 
 ```python
 while True:
-    print("Hello world")
+    print ("Hello world")
 ```
 
-Note: The `while` line states the loop **condition**. The `print` line of code below it is slightly further to the right. This is called __indentation__ - the line is indented to show that it is inside the loop. Any code inside the loop will be repeated.
+Notă: Linia cu `while` arată **condiția** execuției buclei. Linia de cod `print` de mai jos este puțin mai la dreapta. Aceasta se numește __indentare__ - linia este indentată pentru a arăta că este în interiorul buclei. Orice cod din interiorul buclei va fi repetat.
 
-An infinite loop is useful in situations where you want to perform the same actions over and over again, for example checking the value of a sensor. An infinite loop like this will continue to run forever meaning that any lines of code written after the loop will never happen. This is known as **blocking** - whereby a program **blocks** the execution of any other code.
+O buclă infinită este utilă în situațiile în care dorești să efectuezi aceleași acțiuni în mod repetat, de exemplu, verificarea valorii unui senzor. O buclă infinită ca aceasta va continua să ruleze la nesfârșit, însemnând că orice linii de cod scrise după buclă nu vor fi executate niciodată. Aceasta este cunoscută sub numele de **blocare** - prin care un program **blochează** executarea oricărui alt cod.
