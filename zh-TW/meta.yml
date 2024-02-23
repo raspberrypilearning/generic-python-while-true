@@ -1,7 +1,7 @@
 ---
-title: While True loop in Python
+title: 在 Python 中，無限循環的迴圈指令
 hero_image: images/banner.png
-description: Learn how to create an infinite while loop in Python
+description: 了解如何在 Python 中創建一個無限循環的迴圈
 theme: cc-prototype
 duration: 1
 listed: false
@@ -11,4 +11,4 @@ interests: ""
 technologies: "python"
 steps:
   - 
-    title: While loops
+    title: 無限循環迴圈指令
